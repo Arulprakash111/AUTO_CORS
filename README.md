@@ -19,7 +19,7 @@ Note that these vulnerabilities/misconfigurations are dependend on the context. 
 ### Usage
 
 ```
-usage: corstest.py [arguments] infile
+usage: AUTO_CORS.py [arguments] infile
 
 positional arguments:
   infile         File with domain or URL list
@@ -35,13 +35,11 @@ optional arguments:
 
 ### Example
 
-Use of CORStest to detect misconfigurations for the Alexa top 750 sites (with `Access-Control-Allow-Credentials`):
+Use of AUTO_CORS to detect misconfigurations for the Alexa top 750 sites (with `Access-Control-Allow-Credentials`):
 
 
 ### Evaluation
 
 Running this AUTO_CORS on the  arul [top 1 million]sites reveals the following results:
-
-![CORStest example with Alexa top 1,000,000 sites](img/evaluation-alexa-1m.png)
 
 Note that the absolute numbers are quite low, because only 3% of the 1,000,000 tested websites had CORS enabled on their main page and could be analyzed for misconfigurations. This test took about 14 hours on a decent line (DSL). If you have a fast Internet connection, try to increase the number of parallel processes to `-p50` or more.
