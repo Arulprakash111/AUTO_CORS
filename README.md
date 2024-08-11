@@ -19,7 +19,7 @@ Note that these vulnerabilities/misconfigurations are dependend on the context. 
 ### Usage
 
 ```
-usage: AUTO_CORS.py [arguments] infile
+usage: auto_cors.py [arguments] infile
 
 positional arguments:
   infile         File with domain or URL list
@@ -35,7 +35,7 @@ optional arguments:
 
 ### Example
 
-Use of AUTO_CORS to detect misconfigurations for the Alexa top 750 sites (with `Access-Control-Allow-Credentials`):
+Use of auto_cors to detect misconfigurations for the Alexa top 750 sites (with `Access-Control-Allow-Credentials`):
 
 
 ### Evaluation
