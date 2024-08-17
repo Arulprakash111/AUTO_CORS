@@ -33,6 +33,19 @@ optional arguments:
   -v             produce a more verbose output
 ```
 
+
+![Screenshot_2024-08-17_03_54_38](https://github.com/user-attachments/assets/4a453f4c-ce12-4dfb-9ced-dcc5e2956241)
+
+
+
+
+
+
+
+
+
+
+
 ### Example
 
 Use of auto_cors to detect misconfigurations for the Alexa top 750 sites (with `Access-Control-Allow-Credentials`):
